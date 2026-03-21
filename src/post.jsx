@@ -1,8 +1,9 @@
 export default function Post({post}){
-    let {title}=post
+    let {title,body}=post
     return(
         <>
-            <h1>{title}</h1>
+            <p>{title}</p>
+            <p>{body}</p>
         </>
     )
 }
